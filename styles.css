@@ -1,0 +1,72 @@
+/* Create 1 big column, make responsive with 100% column width*/
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after the column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /* create header for top of each page*/
+header {
+    color: #fff;
+    margin-bottom: 0rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    background: rgba(0, 128, 0, 0.9) /* Green background with 70% opactity )*/
+}
+
+/* body margins */
+body {
+    margin: 10;
+    font-size: 100%;
+}
+
+/*color the background and pad the bottom on top of footer and set font-size*/
+main {
+    overflow: auto;
+    padding-bottom: 180px;
+    background-color: #eff5f5;
+    font-size: 1.25em;
+}
+
+/*set font sizze for heading 5*/
+h5 {
+    font-size: 1.25em;
+}
+
+.jumbotron {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+.nav-link {
+    color: #076b15;
+}
+/*make position relative so it moves up when there's less content on the page*/
+footer {
+  position: relative;
+  margin-top: -180px;
+  text-align: center;
+  color: white;
+  height: 180px; /* negative value of footer height */
+  clear: both;
+  background-color: rgba(9, 102, 26, 0.8)
+}
+
+.footer-link {
+    color: white;
+}
+
+/*set heading on page font style and ppadding*/
+#heading {
+    color: #001a00;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
